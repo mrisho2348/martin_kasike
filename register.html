@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+
+      .form-container {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+        margin: 10% auto;
+        padding: 30px;
+        width: 50%;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+        width: 100%;
+      }
+
+      label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        display: block;
+        font-size: 16px;
+        height: 40px;
+        padding: 10px;
+        width: 100%;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        height: 40px;
+        margin: 20px auto;
+        width: 100%;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+
+      .error {
+        color: red;
+        margin: 20px 0;
+        text-align: center;
+      }
+      .martin{
+        text-align: left;
+        color: #3E8DA8;
+        text-shadow: 2px 4px 6px;
+      }
+      .kasike{
+        color: #3E8DA8;
+        text-shadow: 4px 4px 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>REGISTER</h1>
+      <form>
+        <div class="form-group">
+          <label for="Fullname">Fullname:</label>
+          <input type="text" id="Fullname" name="Fullname">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+        </div>
+       
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <input type="submit" value="Submit" onclick="return validateForm()">
+        <div class="martin"><h4>if you  have an account <button class="kasike"><a href="login.html">sign here</a> </button></h4></div>
+      </form>
+      <div id="error" class="error"></div>
+    </div>
+
+
+    <script>
+      function validateForm() {
+        // Get the values of the username, email and password inputs
+        var Fullname = document.getElementById("Fullname").value;
+         var username = document.getElementById("username").value;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+
+        // Check if the username, email and password inputs are not empty
+        if ( fullname === "" || username === "" || email === "" || password === "") {
+          document.getElementById("error").innerHTML = " Fullname,Username, email and password cannot be empty.";
+          return false;
+        } else {
+          // If the inputs are not empty, redirect the user to the login page
+          window.location.href = "login.html";
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>

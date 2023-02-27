@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   <!-- <title> Responsive Drop Down Navigation Menu </title>-->
+    <link rel="stylesheet" href="kasike.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="t.css">
+     <style>
+      .slideshow{
+        padding: 0;
+        text-align: center;
+      }
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+/* .mySlides {display: none;}
+img {vertical-align: middle;} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Caption text */
+.text {
+  color: aqua;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+     </style>
+   </head>
+<body>
+  <section class="header">
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">MPORIPORI</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">MPORIPORI</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">HOME</a></li>
+          <li>
+            <a href="#">SERVICES</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">VIDEO EDITING</a></li>
+              <li><a href="#">VIDEO SHOOTING</a></li>
+              <li><a href="#">GRAPHICS DESIGN</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">ONLINE RADIO</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">ABOUT US</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">MISSION</a></li>
+              <li><a href="#">VISSION</a></li>
+              <li><a href="contact.html">REGISTER</a></li>
+              <li><a href="contact.html">LOGIN</a></li>
+            </ul>
+          </li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="cform.html">CONTACT US</a></li>
+          <li><a href="#">BLOG</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+ 
+
+</section>
+<section>
+<div class="slideshow">
+  <div id="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <video autoplay muted loop>
+        <source
+                src="https://mdbootstrap.com/img/video/Sail-Away.mp4"
+                type="video/mp4"
+                />
+      </video>
+       <h2 id="h2">mporipori</h2> 
+    <!-- i  <span  style="position: absolute; top: 50%;
+      left: 50%; transform: translate(-50%, -50%); 
+      font-size: 16px; color: white;
+      font-weght: bold;">WELCOME TO MPORIPORI STUDIO</span> -->
+     
+    </div>
+    
+    <div class="mySlides fade">
+     
+      <div class="numbertext">2 / 3</div>
+      <img src="off.jpeg" class="video" style="width:100%">
+      <span style="position: absolute; top: 50%;
+       left: 50%; transform: translate(-50%, -50%); 
+       font-size: 16px; color: white;
+       font-weight: bold;">WELCOME TO MPORIPORI STUDIO</span>
+    </div>
+    
+    <div class="mySlides fade">
+      
+      <div class="numbertext">3 / 3</div>
+      <img src="off.jpeg" class="video" style="width:100%">
+      <span style="position: absolute; top: 50%;
+       left: 50%; transform: translate(-50%, -50%); 
+       font-size: 16px; color: white;
+       font-weight: bold;">WELCOME TO MPORIPORI STUDIO</span>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+</div>
+</section>
+
+ <section class="parent" > 
+  
+  <div class="itemA">
+
+    <div class="card">
+      <div class="image">
+           <img src="image.png" alt="">
+      </div>
+    <div class="title">
+    <h1> WHY US?</h1>
+    </div>
+    <div class="description">
+    <p> Many people ask about of studio and am trying to explain more why us because no one like us in kyela Tanzania our studio provide things which are unique</p>
+    <button><a href="#">view</a> </button>
+    </div>
+    </div>
+  </div>
+   <!-- end of item A -->
+   
+  <div class="itemB">
+    <div >
+      <h1> WHY US?</h1>
+    <p> Many people ask about of studio and am trying 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo 
+      tempora exercitationem, suscipit quasi possimus repellendus expedita qui o
+      fficia at porro eaque ut nam eligendi eius et sequi dicta fugit voluptate sit obcaecati, 
+      deleniti dolor. Optio, rem maxime, ratione nesciunt quidem qui odio consectetur non officia 
+      distinctio ea dolorum? Earum fugiat ea obcaecati, ex vitae labore aut modi hic nesciunt nostrum. 
+      Minima repellendus soluta, ab, architecto dolor libero fugiat enim deserunt facere ipsum labore neque
+       eveniet unde beatae alias ullam eius? Fuga delectus quis quod ipsa labore praesentium nost
+      rum tempore vel similique, adipisci natus in repudiandae eligendi, incidunt excepturi ducimus?
+      to explain more why us because no one like us in kyela Tanzania our studio provide things which are unique
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad modi saepe error sint ab ratione sit autem pariatur qui! Vitae perferendis blanditiis ad accusamus a unde nobis vero consectetur optio.
+    </p>
+    <!-- <button><a href="prayersdetails.html">CONTACT</a> </button> -->
+    </div>
+  </div>
+    
+
+</section>
+
+<section class="gallel">
+  <div class="gallelA">  <img src="image.png" alt=""></div>
+  <div  class="gallelB">  <img src="image.png" alt=""></div>
+  <div class="gallelC">  <img src="image.png" alt=""></div>
+</section>
+<section >
+  <center>
+    <div class="offer" >
+      <h1>What We Offer?</h1>
+     <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       Debitis, quidem? Velit neque consequatur
+       magnam facere numquam blanditiis explicabo magni culpa,
+        eligendi consequuntur quasi? Totam, hic.
+     </p> 
+    </center>
+     <div class="offerCard" id="ov1">
+      <div class="offerCard1">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Debitis, quidem? Velit neque consequatur
+           magnam facere numquam blanditiis explicabo magni culpa,
+            eligendi consequuntur quasi? Totam, hic.
+         </p> 
+      </div>
+      <div class="offerCard2" >
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Debitis, quidem? Velit neque consequatur
+           magnam facere numquam blanditiis explicabo magni culpa,
+            eligendi consequuntur quasi? Totam, hic.
+         </p> 
+      </div>
+      <div  class="offerCard3">
+        
+          <h2>Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Debitis, quidem? Velit neque consequatur
+           magnam facere numquam blanditiis explicabo magni culpa,
+            eligendi consequuntur quasi? Totam, hic.
+         </p> 
+        
+        
+      </div>
+     </div>
+    </div>
+  
+    <div class="offerCard" id="ov2">
+      <div class="offerCard1">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Debitis, quidem? Velit neque consequatur
+           magnam facere numquam blanditiis explicabo magni culpa,
+            eligendi consequuntur quasi? Totam, hic.
+         </p> 
+      </div>
+      <div class="offerCard2"  >
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Debitis, quidem? Velit neque consequatur
+           magnam facere numquam blanditiis explicabo magni culpa,
+            eligendi consequuntur quasi? Totam, hic.
+         </p> 
+      </div>
+      
+     </div>
+     <div  class="offerCard3" >
+        
+      <h2>Lorem, ipsum dolor.</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       Debitis, quidem? Velit neque consequatur
+       magnam facere numquam blanditiis explicabo magni culpa,
+        eligendi consequuntur quasi? Totam, hic.
+     </p> 
+    
+    
+  </div>
+</section>
+</section>
+
+<section class="gallel">
+  <div class="gallelA">  <img src="image.png" alt=""></div>
+  <div  class="gallelB">  <img src="image.png" alt=""></div>
+  <div class="gallelC">  <img src="image.png" alt=""></div>
+</section>
+<section class="rates">
+  <div class="rates1">
+    <h4>project completed.</h4>
+    <center>
+      <span class="plus">+</span>
+      <span class="number">200</span>
+    </center>
+  </div>
+  <div class="rates2">
+    <h4>sastified project.</h4>
+    <center>
+      <span class="plus">+</span>
+      <span class="number">350</span>
+    </center>
+    
+  </div>
+  <div class="rates3">
+    <h4>Lorem ipsum.</h4>
+    <center>
+      <span class="plus">+</span>
+      <span class="number">150</span>
+    </center>
+  </div>
+</section>
+<section >
+  <div class="slide">
+    <div style="background-image: url('kiut.jpeg');"></div>
+    <div style="background-image: url('off.jpeg');"></div>
+    <div style="background-image: url('kev.jpeg');"></div>
+    <div style="background-image: url('download.jpeg');"></div>
+    <div style="background-image: url('matin.jpeg');"></div>
+    <div style="background-image: url('mage.jpeg');"></div>
+  </div>
+</section>
+<section >
+
+<div id="studio">
+  <center>
+    <h1>What We Offer?</h1>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Debitis, quidem? Velit neque consequatur
+      magnam facere numquam blanditiis explicabo magni culpa,
+       eligendi consequuntur quasi? Totam, hic.
+    </p> 
+  </center>
+  
+  </div>
+  <!--  -->
+  <div class="parent">
+    <div class="itemA">
+
+      <div class="card">
+        <div class="image">
+             <img src="image.png" alt="">
+        </div>
+      <div class="title">
+      <h1> WHY US?</h1>
+      </div>
+      <div class="description">
+      <p> Many people ask about of studio and am trying to explain more why us because no one like us in kyela Tanzania our studio provide things which are unique</p>
+      <p style="border-top: 2px solid black ;">
+        Lorem ipsum dolor sit 
+        amet consectetur adipisicing 
+        elit. Fugiat, recusandae!
+        </p>
+      </div>
+      </div>
+    </div>
+    <!--  -->
+    
+    <div class="itemA">
+  
+      <div class="card">
+        <div class="image">
+             <img src="image.png" alt="">
+        </div>
+      <div class="title">
+      <h1> WHY US?</h1>
+      </div>
+      <div class="description">
+      <p> Many people ask about of studio and am trying to explain more why us because no one like us in kyela Tanzania our studio provide things which are unique</p>
+      <p style="border-top: 2px solid black ;">
+        Lorem ipsum dolor sit 
+        amet consectetur adipisicing 
+        elit. Fugiat, recusandae!
+        </p>
+      </div>
+      </div>
+    </div>
+        <!--  -->
+        
+        <div class="itemA">
+  
+          <div class="card">
+            <div class="image">
+                 <img src="image.png" alt="">
+            </div>
+          <div class="title">
+          <h1> WHY US?</h1>
+          </div>
+          <div class="description">
+          <p> Many people ask about of studio and am trying to explain more why us because no one like us in kyela Tanzania our studio provide things which are unique</p>
+          
+          <p style="border-top: 2px solid black ;">
+          Lorem ipsum dolor sit 
+          amet consectetur adipisicing 
+          elit. Fugiat, recusandae!
+          </p>
+          </div>
+          </div>
+        </div>
+          <!--  -->
+  </div>
+ 
+
+</section>
+
+<!--  -->
+<section class="parent3"> 
+  
+  <div class="itemAA">
+
+    <div class="cardAA">
+      <div class="imageAA">
+           <img src="image.png" alt="">
+      </div>
+    
+    <div class="description">
+    <p > Many people ask about of studio and am trying to explain more why us because no one like us in kyela Tanzania our studio provide things which are unique</p>
+    
+    </div>
+    </div>
+  </div>
+   <!-- end of item A -->
+   
+  <div class="itemBB">
+    <div >
+      <h1> WHY US?</h1>
+    <p> Many people ask about of studio and am trying 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo 
+      tempora exercitationem, suscipit quasi possimus repellendus expedita qui o
+      fficia at porro eaque ut nam eligendi eius et sequi dicta fugit voluptate sit obcaecati, 
+      deleniti dolor. Optio, rem maxime, ratione nesciunt quidem qui odio consectetur non officia 
+      distinctio ea dolorum? Earum fugiat ea obcaecati, ex vitae labore aut modi hic nesciunt nostrum. 
+      Minima repellendus soluta, ab, architecto dolor libero fugiat enim deserunt facere ipsum labore neque
+       eveniet unde beatae alias ullam eius? Fuga delectus quis quod ipsa labore praesentium nost
+      rum tempore vel similique, adipisci natus in repudiandae eligendi, incidunt excepturi ducimus?
+      to explain more why us because no one like us in kyela Tanzania our studio provide things which are unique
+    </p>
+    <center>
+      <button><a href="#">CONTACT</a> </button> 
+    </center>
+    
+    </div>
+  </div>
+    
+
+</section>
+<section class="footer">
+  <footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">About us</div>
+          <p>MPORIPORI STUDIO This studio found at kyela-mbeya which deal with all issue concerned with videoshooting,photographer,designing</p>
+        </div>
+        <div class="lower">
+          <div class="topic">Contact us</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>+255768344794</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>officialpremier05@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">Our Services</div>
+        <div><a href="#">VIDEO EDITING</a></div>
+        <div><a href="#">VIDEO SHOOTING</a></div>
+        <div><a href="#">GRAPHICS DESIGN</a></div>
+        <div><a href="#">WEB DESIGN</a></div>
+        <div><a href="#">ONLINE RADIO</a></div>
+      </div>
+      <div class="right box">
+        <div class="topic">Subscribe us</div>
+        <form action="#">
+          <input type="text" placeholder="Enter email address">
+          <input type="submit" name="" value="Send">
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>Copyright©2023 <a href="#">MPORIPORI STUDIO</a> All rights reserved</p>
+    </div>
+  </footer>
+ </section>
+ 
+</section>
+<script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+  
+<script src="kasike.js"></script>
+</body>
+</html>

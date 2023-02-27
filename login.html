@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      /* Add some basic styling */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+
+      form {
+        display: inline-block;
+        text-align: left;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #ccc;
+      }
+
+      input[type="text"], input[type="password"] {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+
+      .error {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+      .martin{
+        text-align: left;
+        color: #3E8DA8;
+        text-shadow: 2px 4px 6px;
+      }
+      .kasike{
+        color: #3E8DA8;
+        text-shadow: 4px 4px 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <br><br>
+      <input type="submit" value="Submit" onclick="return validateForm()">
+      <div class="martin"><h4>if you  have not registered<button><a href="register.html">register here</a> </button></h4></div>
+    </form>
+    <div id="error" class="error"></div>
+  </body>
+  <script>
+    function validateForm() {
+      // Get the values of the username and password inputs
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+  
+      // Check if the username and password inputs are not empty
+      if (username === "" || password === "") {
+        document.getElementById("error").innerHTML = "Username and password cannot be empty.";
+        return false;
+      } else {
+        // If the inputs are not empty, redirect the user to the home page
+        window.location.href = "kasike.html";
+        return false;
+      }
+    }
+  </script>
+  
+</html>
