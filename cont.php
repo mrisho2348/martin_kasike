@@ -1,3 +1,5 @@
+<?php  
+session_start();  ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -42,12 +44,12 @@
 				  <ul class="js-sub-menu sub-menu">
 					<li><a href="#">MISSION</a></li>
 					<li><a href="#">VISSION</a></li>
-					<li><a href="contact.html">REGISTER</a></li>
-					<li><a href="contact.html">LOGIN</a></li>
+					<li><a href="contact.php">REGISTER</a></li>
+					<li><a href="contact.php">LOGIN</a></li>
 				  </ul>
 				</li>
 				<li><a href="">PORTFOLIO</a></li>
-				<li><a href="cont.html">CONTACT US</a></li>
+				<li><a href="cont.php">CONTACT US</a></li>
 				<li><a href="#">BLOG</a></li>
 			  </ul>
 			</div>
@@ -66,42 +68,67 @@
 <!-- partial:index.partial.html -->
 <div class="container">
 	<div class="row">
-			<h1>contact us</h1>
+	  <h1>Contact Us</h1>
 	</div>
 	<div class="row">
-			<h4 style="text-align:center">We'd love to hear from you!</h4>
+	  <h4 style="text-align:center">We'd love to hear from you!</h4>
 	</div>
-	<div class="row input-container">
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<input type="text" required />
-					<label>Name</label> 
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input">
-					<input type="text" required />
-					<label>Email</label> 
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input" style="float:right;">
-					<input type="text" required />
-					<label>Phone Number</label> 
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<textarea required></textarea>
-					<label>Message</label>
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<div class="btn-lrg submit-btn">Send Message</div>
-			</div>
-	</div>
+	<form method="post" action="signup.php">
+	  <div class="row input-container">
+		<div class="col-xs-12">
+		  <div class="styled-input wide">
+			<input type="text" name="name" required />
+			<label>Name</label>
+		  </div>
+		</div>
+		<div class="col-md-6 col-sm-12">
+		  <div class="styled-input">
+			<input type="email" name="email" required />
+			<label>Email</label>
+		  </div>
+		</div>
+		<div class="col-md-6 col-sm-12">
+		  <div class="styled-input" style="float:right;">
+			<input type="tel" name="phone" required />
+			<label>Phone Number</label>
+		  </div>
+		</div>
+		<div class="col-xs-12">
+		  <div class="styled-input wide">
+			<textarea name="message" required></textarea>
+			<label>Message</label>
+		  </div>
+		</div>
+		<div class="col-xs-12">
+		  <div class="btn-lrg submit-btn"><input type="submit" value="Send Message" name="send"></div>
+		</div>
+	  </div>
+	  <div id="message-container">
+                      <?php
+                                          if (isset($_GET['error'])) {
+                                     echo '<p>Error: ' . $_GET['error'] . '</p>';
+                                                 }
+
+                                if (isset($_GET['success'])) {
+                                           echo '<p>' . $_GET['success'] . '</p>';
+                       }
+                                     ?>
 </div>
-<section class="footer"><hr>
+<script>
+  // Get the message container element
+  var messageContainer = document.getElementById("message-container");
+
+  // Remove the message container after 5 seconds
+  setTimeout(function() {
+    messageContainer.parentNode.removeChild(messageContainer);
+  }, 5000);
+</script>
+	</form>
+  
+  </div>
+
+  <div id="message"></div>
+<section class="footer"><br>
 	<footer>
 	  <div class="content">
 		<div class="left box">
@@ -129,17 +156,17 @@
 		</div>
 		<div class="right box">
 		  <div class="topic">Subscribe us</div>
-		  <form action="#">
-			<input type="text" placeholder="Enter email address">
-			<input type="submit" name="" value="Send">
-			<div class="media-icons">
-			  <a href="#"><i class="fab fa-facebook-f"></i></a>
-			  <a href="#"><i class="fab fa-instagram"></i></a>
-			  <a href="#"><i class="fab fa-twitter"></i></a>
-			  <a href="#"><i class="fab fa-youtube"></i></a>
-			  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-		  </form>
+		  <form action="send.php">
+                    <input type="text" placeholder="Enter email address" name="email">
+                    <input type="submit" name="submit" value="Send">
+                    <div class="media-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </form>
 		</div>
 	  </div>
 	  <div class="bottom">
@@ -154,3 +181,8 @@
 
 </body>
 </html>
+<script>
+  setTimeout(function(){
+    $('.alert').fadeOut();
+  }, 5000);
+</script>
