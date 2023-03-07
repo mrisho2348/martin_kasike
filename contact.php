@@ -63,7 +63,7 @@
 				  <a href="#">ABOUT US</a>
 				  <i class='bx bxs-chevron-down js-arrow arrow '></i>
 				  <ul class="js-sub-menu sub-menu">
-					<li><a href="#">MISSION</a></li>
+					<li><a href="mission.html">MISSION</a></li>
 					<li><a href="#">VISSION</a></li>
 					<li><a href="contact.php">REGISTER</a></li>
 					<li><a href="contact.php">LOGIN</a></li>
@@ -71,7 +71,7 @@
 				</li>
 				<li><a href="">PORTFOLIO</a></li>
 				<li><a href="cont.php">CONTACT US</a></li>
-				<li><a href="#">BLOG</a></li>
+				<li><a href="blog.html">BLOG</a></li>
 			  </ul>
 			</div>
 			<div class="search-box">
@@ -204,9 +204,29 @@
 		</div>
 		<div class="right box">
 		  <div class="topic">Subscribe us</div>
-		  <form action="send.php">
+		  <form action="send.php" method="post">
                     <input type="text" placeholder="Enter email address" name="email">
                     <input type="submit" name="submit" value="Send">
+					<div id="message-container">
+                      <?php
+                                          if (isset($_GET['error'])) {
+                                     echo '<p>Error: ' . $_GET['error'] . '</p>';
+                                                 }
+
+                                if (isset($_GET['success'])) {
+                                           echo '<p>' . $_GET['success'] . '</p>';
+                       }
+                                     ?>
+</div>
+<script>
+  // Get the message container element
+  var messageContainer = document.getElementById("message-container");
+
+  // Remove the message container after 5 seconds
+  setTimeout(function() {
+    messageContainer.parentNode.removeChild(messageContainer);
+  }, 5000);
+</script>
                     <div class="media-icons">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-instagram"></i></a>
