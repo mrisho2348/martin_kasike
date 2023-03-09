@@ -122,6 +122,7 @@
                   <div><a href="#">VIDEO SHOOTING</a></div>
                   <div><a href="#">GRAPHICS DESIGN</a></div>
                   <div><a href="#">WEB DESIGN</a></div>
+                  <div><a href="background.php">our background</a></div>
                   <div><a href="#">ONLINE RADIO</a></div>
                 </div>
                 <div class="right box">
