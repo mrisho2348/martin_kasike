@@ -34,6 +34,7 @@
               <li><a href="view.php">VIEW MY VIDEO</a></li>
               <li><a href="#">VIDEO SHOOTING</a></li>
               <li><a href="#">GRAPHICS DESIGN</a></li>
+              <li><a href="background.php">OUR BACKGROUND</a></li>
               <li class="more">
                 <span><a href="#">More</a>
                 <i class='bx bxs-chevron-right arrow more-arrow'></i>
