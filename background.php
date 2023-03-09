@@ -8,6 +8,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="contact.css">
+     <!-- <link rel="stylesheet" href="kasike.css"> -->
   <style>
     /* Custom styles */
     .jumbotron {
@@ -28,7 +32,7 @@
     
     .card {
       box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease-in-out;
+      transition: transform 0.5s ease-in-out;
     }
     
     .card:hover {
@@ -41,8 +45,8 @@
     }
     
     .card-title {
-      font-weight: bold;
-      font-size: 1.5rem;
+      font-weight: bold !important;
+      font-size: 1.5rem !important;
     }
     
     .card-text {
@@ -61,31 +65,63 @@
 </head>
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Design and Shoot</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<section class="header">
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">MPORIPORI</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">MPORIPORI</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="kasike.html">HOME</a></li>
+          <li>
+            <a href="#">SERVICES</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="view.php">VIEW MY VIDEO</a></li>
+              <li><a href="#">VIDEO SHOOTING</a></li>
+              <li><a href="#">GRAPHICS DESIGN</a></li>
+              <li><a href="background.php">OUR BACKGROUND</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">ONLINE RADIO</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">ABOUT US</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="mission.html">MISSION</a></li>
+              <li><a href="#">VISSION</a></li>
+              <li><a href="contact.php">REGISTER</a></li>
+              <li><a href="contact.php">LOGIN</a></li>
+            </ul>
+          </li>
+          <li><a href="portfollio.php">PORTFOLIO</a></li>
+          <li><a href="#">CONTACT US</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+ 
+
+</section>
 <!-- Jumbotron -->
 <div class="jumbotron">
   <div class="container">
@@ -93,6 +129,25 @@
     <p class="lead">Transforming your ideas into stunning visuals</p>
     <hr class="my-4">
     <p>At Design and Shoot, we specialize in creating high 
+    quality visuals that bring your ideas to life. Our team of experienced designers and photographers work together to deliver top-notch creative solutions for businesses and individuals alike. From branding and marketing materials to product photography and event coverage, we've got you covered. Let us help you take your vision to the next level.</p>
+<a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+
+  </div>
+</div>
+<!-- About -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Page Content -->
 <div class="container">
@@ -181,13 +236,18 @@
       
       
   <!-- Team Members -->
+  <div class="container">
   <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center">About Us</h2>
+      <hr>
+    </div>
     <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100">
         <img class="card-img-top" src="img/team-member-1.jpg" alt="">
         <div class="card-body">
-          <h4 class="card-title">John Smith</h4>
-          <p class="card-text">Founder and CEO</p>
+          <h4 class="card-title" style="color: black;">John Doe</h4>
+          <p class="card-text">Founder &amp; CEO</p>
         </div>
       </div>
     </div>
@@ -195,9 +255,100 @@
       <div class="card h-100">
         <img class="card-img-top" src="img/team-member-2.jpg" alt="">
         <div class="card-body">
-          <h4 class="card-title">Jane Doe</h4>
+          <h4 class="card-title"  style="color: black;">Jane Doe</h4>
           <p class="card-text">Creative Director</p>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="img/team-member-3.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title" style="color: black;">Jack Smith</h4>
+          <p class="card-text">Marketing Director</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<section class="footer">
+  <footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">About us</div>
+          <p>MPORIPORI STUDIO This studio found at kyela-mbeya which deal with all issue concerned with videoshooting,photographer,designing</p>
+        </div>
+        <div class="lower">
+          <div class="topic">Contact us</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>+255768344794</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>officialpremier05@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">Our Services</div>
+        <div><a href="#">VIDEO EDITING</a></div>
+        <div><a href="#">VIDEO SHOOTING</a></div>
+        <div><a href="#">GRAPHICS DESIGN</a></div>
+        <div><a href="#">WEB DESIGN</a></div>
+        <div><a href="background.php">our background</a></div>
+        <div><a href="#">ONLINE RADIO</a></div>
+      </div>
+      <div class="right box">
+        <div class="topic">Subscribe us</div>
+        <form action="send.php" method="post">
+                    <input type="text" placeholder="Enter email address" name="email">
+                    <input type="submit" name="submit" value="Send">
+                    <div id="message-container">
+                      <?php
+                                          if (isset($_GET['error'])) {
+                                     echo '<p>Error: ' . $_GET['error'] . '</p>';
+                                                 }
+
+                                if (isset($_GET['success'])) {
+                                           echo '<p>' . $_GET['success'] . '</p>';
+                       }
+                                     ?>
+</div>
+<script>
+  // Get the message container element
+  var messageContainer = document.getElementById("message-container");
+
+  // Remove the message container after 5 seconds
+  setTimeout(function() {
+    messageContainer.parentNode.removeChild(messageContainer);
+  }, 5000);
+</script>
+                    <div class="media-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </form>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>Copyright©2023 <a href="#">MPORIPORI STUDIO</a> All rights reserved</p>
+    </div>
+  </footer>
+ </section>
+ 
+
+
+  
+
+
+  
+<script src="kasike.js"></script>
+
+</body>
+</html>
