@@ -10,12 +10,13 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="contact.css">
      <link rel="stylesheet" href="kasike.css">
+     <link rel="stylesheet" href="style.css">
      
 
      
    </head>
 <body>
-  <section class="header">
+<section class="header">
   <nav>
     <div class="navbar">
       <i class='bx bx-menu'></i>

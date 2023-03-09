@@ -9,62 +9,63 @@ session_start();  ?>
 <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-	<section class="header">
-		<nav>
-		  <div class="navbar">
-			<i class='bx bx-menu'></i>
-			<div class="logo"><a href="#">MPORIPORI</a></div>
-			<div class="nav-links">
-			  <div class="sidebar-logo">
-				<span class="logo-name">MPORIPORI</span>
-				<i class='bx bx-x' ></i>
-			  </div>
-			  <ul class="links">
-				<li><a href="kasike.html">HOME</a></li>
-				<li>
-				  <a href="#">SERVICES</a>
-				  <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-				  <ul class="htmlCss-sub-menu sub-menu">
-					<li><a href="#">VIDEO EDITING</a></li>
-					<li><a href="#">VIDEO SHOOTING</a></li>
-					<li><a href="#">GRAPHICS DESIGN</a></li>
-					<li class="more">
-					  <span><a href="#">More</a>
-					  <i class='bx bxs-chevron-right arrow more-arrow'></i>
-					</span>
-					  <ul class="more-sub-menu sub-menu">
-						<li><a href="#">ONLINE RADIO</a></li>
-					  </ul>
-					</li>
-				  </ul>
-				</li>
-				<li>
-				  <a href="#">ABOUT US</a>
-				  <i class='bx bxs-chevron-down js-arrow arrow '></i>
-				  <ul class="js-sub-menu sub-menu">
-					<li><a href="mission.html">MISSION</a></li>
-					<li><a href="#">VISSION</a></li>
-					<li><a href="contact.php">REGISTER</a></li>
-					<li><a href="contact.php">LOGIN</a></li>
-				  </ul>
-				</li>
-				<li><a href="">PORTFOLIO</a></li>
-				<li><a href="cont.php">CONTACT US</a></li>
-				<li><a href="blog.html">BLOG</a></li>
-			  </ul>
-			</div>
-			<div class="search-box">
-			  <i class='bx bx-search'></i>
-			  <div class="input-box">
-				<input type="text" placeholder="Search...">
-			  </div>
-			</div>
-		  </div>
-		  
-		</nav>
-	   
-	  
-	  </section>
+<section class="header">
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">MPORIPORI</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">MPORIPORI</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="kasike.html">HOME</a></li>
+          <li>
+            <a href="#">SERVICES</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="view.php">VIEW MY VIDEO</a></li>
+              <li><a href="#">VIDEO SHOOTING</a></li>
+              <li><a href="#">GRAPHICS DESIGN</a></li>
+              <li><a href="background.php">OUR BACKGROUND</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">ONLINE RADIO</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">ABOUT US</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="mission.html">MISSION</a></li>
+              <li><a href="#">VISSION</a></li>
+              <li><a href="contact.php">REGISTER</a></li>
+              <li><a href="contact.php">LOGIN</a></li>
+            </ul>
+          </li>
+          <li><a href="portfollio.php">PORTFOLIO</a></li>
+          <li><a href="#">CONTACT US</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+ 
+
+</section>
 <!-- partial:index.partial.html -->
 <div class="container">
 	<div class="row">
