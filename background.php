@@ -189,25 +189,25 @@
   <!-- Image Gallery -->
   <div class="row mt-5">
     <div class="col-md-4 mb-4">
-      <img src="https://via.placeholder.com/350x250" class="img-fluid">
+      <img src="graphics.png" class="img-fluid">
     </div>
     <div class="col-md-4 mb-4">
-      <img src="https://via.placeholder.com/350x250" class="img-fluid">
+      <img src="graphic1.jpeg" class="img-fluid">
     </div>
     <div class="col-md-4 mb-4">
-      <img src="https://via.placeholder.com/350x250" class="img-fluid">
+      <img src="graphic2.png" class="img-fluid">
     </div>
   </div>
   <div class="row mt-3">
     <div class="col-md-4 mb-4">
-      <img src="https://via.placeholder.com/350x250" class="img-fluid">
+      <img src="graphic3.png" class="img-fluid">
     </div>
     <div class="col-md-4 mb-4">
-      <img src="https://via.placeholder.com/350x250" class="img-fluid">
+      <img src="graphics4.png" class="img-fluid">
     </div>
-    <div class="
-
-
+    <div class="col-md-4 mb-4">
+      <img src="graphics4.png" class="img-fluid">
+    </div>
 
 
     <!-- Page Content -->
@@ -244,7 +244,7 @@
     </div>
     <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100">
-        <img class="card-img-top" src="img/team-member-1.jpg" alt="">
+        <img class="card-img-top" src="image4.png" alt="">
         <div class="card-body">
           <h4 class="card-title" style="color: black;">John Doe</h4>
           <p class="card-text">Founder &amp; CEO</p>
@@ -253,7 +253,7 @@
     </div>
     <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100">
-        <img class="card-img-top" src="img/team-member-2.jpg" alt="">
+        <img class="card-img-top" src="image5.png" alt="">
         <div class="card-body">
           <h4 class="card-title"  style="color: black;">Jane Doe</h4>
           <p class="card-text">Creative Director</p>
@@ -262,7 +262,7 @@
     </div>
     <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100">
-        <img class="card-img-top" src="img/team-member-3.jpg" alt="">
+        <img class="card-img-top" src="image6.png" alt="">
         <div class="card-body">
           <h4 class="card-title" style="color: black;">Jack Smith</h4>
           <p class="card-text">Marketing Director</p>
