@@ -83,16 +83,8 @@
             <ul class="htmlCss-sub-menu sub-menu">
               <li><a href="view.php">VIEW MY VIDEO</a></li>
               <li><a href="#">VIDEO SHOOTING</a></li>
-              <li><a href="#">GRAPHICS DESIGN</a></li>
-              <li><a href="background.php">OUR BACKGROUND</a></li>
-              <li class="more">
-                <span><a href="#">More</a>
-                <i class='bx bxs-chevron-right arrow more-arrow'></i>
-              </span>
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">ONLINE RADIO</a></li>
-                </ul>
-              </li>
+              <li><a href="#">GRAPHICS DESIGN</a></li>           
+              
             </ul>
           </li>
           <li>
@@ -101,9 +93,8 @@
             <ul class="js-sub-menu sub-menu">
               <li><a href="mission.html">MISSION</a></li>
               <li><a href="#">VISSION</a></li>
-              <li><a href="contact.php">REGISTER</a></li>
-              <li><a href="contact.php">LOGIN</a></li>
-            </ul>
+              <li><a href="background.php">OUR BACKGROUND</a></li>
+                         </ul>
           </li>
           <li><a href="portfollio.php">PORTFOLIO</a></li>
           <li><a href="cont.php">CONTACT US</a></li>
@@ -150,9 +141,9 @@
 
 
     <!-- Page Content -->
-<div class="container">
+<!-- <div class="container"> -->
   <!-- Historical Background -->
-  <div class="row mt-5">
+  <!-- <div class="row mt-5">
     <div class="col-md-12">
       <h2>Historical Background</h2>
       <hr>
@@ -160,9 +151,9 @@
       <p>In 2008, John hired his first employee, Jane Doe, a fellow designer and videographer. Together, they expanded the company's offerings and took on bigger projects. Over the years, Design and Shoot has grown to become a leading provider of graphic design and video production services, with a team of talented designers and videographers who are dedicated to delivering exceptional work.</p>
       <p>Today, Design and Shoot continues to innovate and push the boundaries of design and video production. We believe that great design and video can change the world, and we are committed to creating work that is not only visually stunning, but also meaningful and impactful.</p>
     </div>
-  </div>
+  </div> -->
   <!-- Our Services -->
-  <div class="row mt-5">
+  <!-- <div class="row mt-5">
     <div class="col-md-12">
       <h2>Our Services</h2>
       <hr>
@@ -177,17 +168,17 @@
       </ul>
       <p>Our team of talented designers and videographers is passionate about creating work that exceeds our clients' expectations. We work closely with our clients to understand their needs and develop a customized solution that meets their specific goals and objectives.</p>
     </div>
-  </div>
+  </div> -->
   <!-- Our Portfolio -->
-  <div class="row mt-5">
+  <!-- <div class="row mt-5">
     <div class="col-md-12">
       <h2>Our Portfolio</h2>
       <hr>
       <p>Take a look at some of our recent work:</p>
     </div>
-  </div>
+  </div> -->
   <!-- Image Gallery -->
-  <div class="row mt-5">
+  <!-- <div class="row mt-5">
     <div class="col-md-4 mb-4">
       <img src="graphics.png" class="img-fluid">
     </div>
@@ -207,13 +198,13 @@
     </div>
     <div class="col-md-4 mb-4">
       <img src="graphics4.png" class="img-fluid">
-    </div>
+    </div> -->
 
 
     <!-- Page Content -->
 <div class="container">
   <!-- Historical Background -->
-  <div class="row mt-5">
+<div class="row mt-5">
     <div class="col-md-12">
       <h2>Historical Background</h2>
       <hr>
@@ -223,8 +214,8 @@
       <p>At Design and Shoot, we're not content with just creating beautiful designs and videos. We want our work to have a positive impact on the world. That's why we've made it our mission to use design and video to promote social and environmental causes that we believe in. Whether it's raising awareness about climate change, supporting human rights, or promoting diversity and inclusion, we're always looking for ways to use our skills for good.</p>
       <p>Looking back on our journey, we're proud of how far we've come, but we know that there's always more to do. We're excited to continue pushing the boundaries of design and video production, and to use our skills to make a positive impact on the world.</p>
     </div>
-  </div>
-  <!-- Our Team -->
+  </div> 
+   Our Team  -->
   <div class="row mt-5">
     <div class="col-md-12">
       <h2>Our Team</h2>
@@ -232,6 +223,9 @@
       <p>At Design and Shoot, we believe that our team is our greatest asset. We're a tight-knit group of designers, videographers, and storytellers who are passionate about our work and committed to delivering exceptional results.</p>
       <p>Our team is made up of individuals from diverse backgrounds and cultures, each bringing their own unique perspective and skillset to the table. We believe that diversity and inclusion are essential to creating work that is not only visually stunning, but also meaningful and impactful.</p>
       <p>Meet some of our talented team members:</p>
+  </div>
+  </div>
+  </div>
 
       
       
@@ -271,10 +265,11 @@
     </div>
   </div>
 </div>
+  </div>
 
 
 <!-- Footer -->
-<section class="footer">
+<section class="footer" style="width:100%">
   <footer>
     <div class="content">
       <div class="left box">
@@ -294,46 +289,26 @@
       </div>
       <div class="middle box">
         <div class="topic">Our Services</div>
-        <div><a href="#">VIDEO EDITING</a></div>
+        <div><a href="view.php">VIEW MY VIDEO</a></div>
         <div><a href="#">VIDEO SHOOTING</a></div>
         <div><a href="#">GRAPHICS DESIGN</a></div>
         <div><a href="#">WEB DESIGN</a></div>
-        <div><a href="background.php">our background</a></div>
+        <div><a href="background.php">OUR BACKGROUND</a></div>
         <div><a href="#">ONLINE RADIO</a></div>
       </div>
       <div class="right box">
         <div class="topic">Subscribe us</div>
         <form action="send.php" method="post">
-                    <input type="text" placeholder="Enter email address" name="email">
-                    <input type="submit" name="submit" value="Send">
-                    <div id="message-container">
-                      <?php
-                                          if (isset($_GET['error'])) {
-                                     echo '<p>Error: ' . $_GET['error'] . '</p>';
-                                                 }
-
-                                if (isset($_GET['success'])) {
-                                           echo '<p>' . $_GET['success'] . '</p>';
-                       }
-                                     ?>
-</div>
-<script>
-  // Get the message container element
-  var messageContainer = document.getElementById("message-container");
-
-  // Remove the message container after 5 seconds
-  setTimeout(function() {
-    messageContainer.parentNode.removeChild(messageContainer);
-  }, 5000);
-</script>
-                    <div class="media-icons">
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      <a href="#"><i class="fab fa-instagram"></i></a>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href="#"><i class="fab fa-youtube"></i></a>
-                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                  </form>
+          <input type="text" placeholder="Enter email address" name="email">
+          <input type="submit" name="submit" value="Send">
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </form>
       </div>
     </div>
     <div class="bottom">
@@ -342,11 +317,28 @@
   </footer>
  </section>
  
-
-
+</section>
+<script>
+  let slideIndex = 0;
+  showSlides();
   
-
-
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
   
 <script src="kasike.js"></script>
 
