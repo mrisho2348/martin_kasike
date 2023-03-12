@@ -46,14 +46,7 @@
               <li><a href="#">VIDEO SHOOTING</a></li>
               <li><a href="#">GRAPHICS DESIGN</a></li>
               <li><a href="background.php">OUR BACKGROUND</a></li>
-              <li class="more">
-                <span><a href="#">More</a>
-                <i class='bx bxs-chevron-right arrow more-arrow'></i>
-              </span>
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">ONLINE RADIO</a></li>
-                </ul>
-              </li>
+          
             </ul>
           </li>
           <li>
@@ -61,7 +54,7 @@
             <i class='bx bxs-chevron-down js-arrow arrow '></i>
             <ul class="js-sub-menu sub-menu">
               <li><a href="mission.html">MISSION</a></li>
-              <li><a href="#">VISSION</a></li>
+              <li><a href="mission.html#visions">VISSION</a></li>
               <li><a href="contact.php">REGISTER</a></li>
               <li><a href="contact.php">LOGIN</a></li>
             </ul>

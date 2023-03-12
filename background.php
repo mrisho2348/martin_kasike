@@ -92,7 +92,9 @@
             <i class='bx bxs-chevron-down js-arrow arrow '></i>
             <ul class="js-sub-menu sub-menu">
               <li><a href="mission.html">MISSION</a></li>
-              <li><a href="#">VISSION</a></li>
+              <li><a href="mission.html#visions">VISSION</a></li>
+              <li><a href="contact.php">REGISTER</a></li>
+					<li><a href="contact.php">LOGIN</a></li>
               <li><a href="background.php">OUR BACKGROUND</a></li>
                          </ul>
           </li>
@@ -141,9 +143,9 @@
 
 
     <!-- Page Content -->
-<!-- <div class="container"> -->
+<div class="container">
   <!-- Historical Background -->
-  <!-- <div class="row mt-5">
+  <div class="row mt-5">
     <div class="col-md-12">
       <h2>Historical Background</h2>
       <hr>
@@ -151,9 +153,9 @@
       <p>In 2008, John hired his first employee, Jane Doe, a fellow designer and videographer. Together, they expanded the company's offerings and took on bigger projects. Over the years, Design and Shoot has grown to become a leading provider of graphic design and video production services, with a team of talented designers and videographers who are dedicated to delivering exceptional work.</p>
       <p>Today, Design and Shoot continues to innovate and push the boundaries of design and video production. We believe that great design and video can change the world, and we are committed to creating work that is not only visually stunning, but also meaningful and impactful.</p>
     </div>
-  </div> -->
+  </div>
   <!-- Our Services -->
-  <!-- <div class="row mt-5">
+  <div class="row mt-5">
     <div class="col-md-12">
       <h2>Our Services</h2>
       <hr>
@@ -168,17 +170,17 @@
       </ul>
       <p>Our team of talented designers and videographers is passionate about creating work that exceeds our clients' expectations. We work closely with our clients to understand their needs and develop a customized solution that meets their specific goals and objectives.</p>
     </div>
-  </div> -->
+  </div>
   <!-- Our Portfolio -->
-  <!-- <div class="row mt-5">
+  <div class="row mt-5">
     <div class="col-md-12">
       <h2>Our Portfolio</h2>
       <hr>
       <p>Take a look at some of our recent work:</p>
     </div>
-  </div> -->
+  </div>
   <!-- Image Gallery -->
-  <!-- <div class="row mt-5">
+  <div class="row mt-5">
     <div class="col-md-4 mb-4">
       <img src="graphics.png" class="img-fluid">
     </div>
@@ -198,7 +200,11 @@
     </div>
     <div class="col-md-4 mb-4">
       <img src="graphics4.png" class="img-fluid">
-    </div> -->
+    </div>
+  </div>
+  </div>
+
+    
 
 
     <!-- Page Content -->

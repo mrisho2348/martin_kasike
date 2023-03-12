@@ -7,10 +7,12 @@
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
+<link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="contact.css">
 <link rel="stylesheet" href="kasike.css">
+
 <style>
 	.alert-danger {
   color: #721c24;
@@ -58,6 +60,8 @@
             <ul class="js-sub-menu sub-menu">
               <li><a href="mission.html">MISSION</a></li>
               <li><a href="#">VISSION</a></li>
+			  <li><a href="contact.php">REGISTER</a></li>
+					<li><a href="contact.php">LOGIN</a></li>
               <li><a href="background.php">OUR BACKGROUND</a></li>
                          </ul>
           </li>
