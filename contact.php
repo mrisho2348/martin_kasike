@@ -7,12 +7,10 @@
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
-<link rel="stylesheet" href="style.css">
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet" href="./style.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="contact.css">
 <link rel="stylesheet" href="kasike.css">
-
 <style>
 	.alert-danger {
   color: #721c24;
@@ -32,56 +30,59 @@
 </head>
 <body>
 
-<section class="header">
-  <nav>
-    <div class="navbar">
-      <i class='bx bx-menu'></i>
-      <div class="logo"><a href="#">MPORIPORI</a></div>
-      <div class="nav-links">
-        <div class="sidebar-logo">
-          <span class="logo-name">MPORIPORI</span>
-          <i class='bx bx-x' ></i>
-        </div>
-        <ul class="links">
-          <li><a href="kasike.html">HOME</a></li>
-          <li>
-            <a href="#">SERVICES</a>
-            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-            <ul class="htmlCss-sub-menu sub-menu">
-              <li><a href="view.php">VIEW MY VIDEO</a></li>
-              <li><a href="#">VIDEO SHOOTING</a></li>
-              <li><a href="#">GRAPHICS DESIGN</a></li>           
-              
-            </ul>
-          </li>
-          <li>
-            <a href="#">ABOUT US</a>
-            <i class='bx bxs-chevron-down js-arrow arrow '></i>
-            <ul class="js-sub-menu sub-menu">
-              <li><a href="mission.html">MISSION</a></li>
-              <li><a href="#">VISSION</a></li>
-			  <li><a href="contact.php">REGISTER</a></li>
+	<section class="header">
+		<nav>
+		  <div class="navbar">
+			<i class='bx bx-menu'></i>
+			<div class="logo1"><a href="#">MPORIPORI</a></div>
+			<div class="nav-links">
+			  <div class="sidebar-logo">
+				<span class="logo-name">MPORIPORI</span>
+				<i class='bx bx-x' ></i>
+			  </div>
+			  <ul class="links">
+				<li><a href="kasike.html">HOME</a></li>
+				<li>
+				  <a href="#">SERVICES</a>
+				  <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+				  <ul class="htmlCss-sub-menu sub-menu">
+					<li><a href="#">VIDEO EDITING</a></li>
+					<li><a href="#">VIDEO SHOOTING</a></li>
+					<li><a href="#">GRAPHICS DESIGN</a></li>
+					<li class="more">
+					  <span><a href="#">More</a>
+					  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+					</span>
+					  <ul class="more-sub-menu sub-menu">
+						<li><a href="#">ONLINE RADIO</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <a href="#">ABOUT US</a>
+				  <i class='bx bxs-chevron-down js-arrow arrow '></i>
+				  <ul class="js-sub-menu sub-menu">
+					<li><a href="mission.html">MISSION</a></li>
+					<li><a href="vision.html">VISSION</a></li>
+					<li><a href="contact.php">REGISTER</a></li>
 					<li><a href="contact.php">LOGIN</a></li>
-              <li><a href="background.php">OUR BACKGROUND</a></li>
-                         </ul>
-          </li>
-          <li><a href="portfollio.php">PORTFOLIO</a></li>
-          <li><a href="cont.php">CONTACT US</a></li>
-          <li><a href="blog.html">BLOG</a></li>
-        </ul>
-      </div>
-      <div class="search-box">
-        <i class='bx bx-search'></i>
-        <div class="input-box">
-          <input type="text" placeholder="Search...">
-        </div>
-      </div>
-    </div>
-    
-  </nav>
- 
-
-</section>
+				  </ul>
+				</li>
+				<li><a href="">PORTFOLIO</a></li>
+				<li><a href="cont.php">CONTACT US</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+			  </ul>
+			</div>
+			<div class="search-box">
+			  <i class='bx bx-search'></i>
+			  <div class="input-box">
+				<input type="text" placeholder="Search...">
+			  </div>
+			</div>
+		  </div>
+		  
+		</nav>
 		<div id="message-container">
                       <?php
                                           if (isset($_GET['error'])) {
