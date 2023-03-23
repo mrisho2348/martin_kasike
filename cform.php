@@ -3,17 +3,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-
-    
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="contact.css">
      <link rel="stylesheet" href="kasike.css">
-     <link rel="stylesheet" href="style.css">
-     
-
-     
+     <link rel="stylesheet" href="style.css">  
    </head>
 <body>
 <section class="header">
@@ -143,10 +138,13 @@
         <div class="lower">
           <div class="topic">Contact us</div>
           <div class="phone">
-            <a href="#"><i class="fas fa-phone-volume"></i>+255768344794</a>
+          <a href="tel:+255768344794"><i class="fa fa-phone"></i>+255768344794</a>
           </div>
           <div class="email">
-            <a href="#"><i class="fas fa-envelope"></i>officialpremier05@gmail.com</a>
+            <a href="malto:officialpremier05@gmail.com"><i class="fa fa-envelope"></i>officialpremier05@gmail.com</a>
+          </div>
+          <div class="location">
+            <a href=""><i class="fa fa-map-marker" ></i>123 KYELA-MBEYA TANZANIA</a>
           </div>
         </div>
       </div>
@@ -185,11 +183,10 @@
   }, 5000);
 </script>
                     <div class="media-icons">
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      <a href="#"><i class="fab fa-instagram"></i></a>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href="#"><i class="fab fa-youtube"></i></a>
-                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                  <a href="#"><i class="fa fa-instagram" ></i></a>
+                  <a href="#"><i class="fa fa-twitter-square"></i></a>
+                  <a href="#"><i class="fa fa-youtube-play"></i></a>
                     </div>
                   </form>
       </div>

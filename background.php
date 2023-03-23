@@ -4,6 +4,7 @@
   <title>Design and Shoot</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -128,20 +129,6 @@
   </div>
 </div>
 <!-- About -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Page Content -->
 <div class="container">
   <!-- Historical Background -->
@@ -221,7 +208,7 @@
       <p>Looking back on our journey, we're proud of how far we've come, but we know that there's always more to do. We're excited to continue pushing the boundaries of design and video production, and to use our skills to make a positive impact on the world.</p>
     </div>
   </div> 
-   Our Team  -->
+   Our Team  
   <div class="row mt-5">
     <div class="col-md-12">
       <h2>Our Team</h2>
@@ -244,7 +231,7 @@
     </div>
     <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100">
-        <img class="card-img-top" src="image4.png" alt="">
+        <img class="card-img-top" src="da.jpg" alt="">
         <div class="card-body">
           <h4 class="card-title" style="color: black;">John Doe</h4>
           <p class="card-text">Founder &amp; CEO</p>
@@ -286,10 +273,13 @@
         <div class="lower">
           <div class="topic">Contact us</div>
           <div class="phone">
-            <a href="#"><i class="fas fa-phone-volume"></i>+255768344794</a>
+            <a href="tel:+255768344794"><i class="fa fa-phone"></i>+255768344794</a>
           </div>
           <div class="email">
-            <a href="#"><i class="fas fa-envelope"></i>officialpremier05@gmail.com</a>
+            <a href="mailto:officialpremier05@gmail.com"><i class="fa fa-envelope"></i>officialpremier05@gmail.com</a>
+          </div>
+          <div class="location">
+            <a href=""><i class="fa fa-map-marker" ></i>123 KYELA-MBEYA TANZANIA</a>
           </div>
         </div>
       </div>
@@ -308,11 +298,10 @@
           <input type="text" placeholder="Enter email address" name="email">
           <input type="submit" name="submit" value="Send">
           <div class="media-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-instagram" ></i></a>
+            <a href="#"><i class="fa fa-twitter-square"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
           </div>
         </form>
       </div>

@@ -33,7 +33,7 @@ session_start();  ?>
               <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
               <ul class="htmlCss-sub-menu sub-menu">
                 <li><a href="view.php">VIEW MY VIDEO</a></li>
-                <li><a href="#">VIDEO SHOOTING</a></li>
+                <li><a href="view.php">VIDEO SHOOTING</a></li>
                 <li><a href="#">GRAPHICS DESIGN</a></li>
                 <li><a href="background.php">OUR BACKGROUND</a></li>
                 <li class="more">
@@ -51,13 +51,13 @@ session_start();  ?>
               <i class='bx bxs-chevron-down js-arrow arrow '></i>
               <ul class="js-sub-menu sub-menu">
                 <li><a href="mission.html">MISSION</a></li>
-                <li><a href="#">VISSION</a></li>
+                <li><a href="mission.html">VISSION</a></li>
                 <li><a href="contact.php">REGISTER</a></li>
                 <li><a href="contact.php">LOGIN</a></li>
               </ul>
             </li>
             <li><a href="portfollio.php">PORTFOLIO</a></li>
-            <li><a href="cont.php">CONTACT US</a></li>
+            <li><a href="cform.php">CONTACT US</a></li>
             <li><a href="blog.html">BLOG</a></li>
           </ul>
         </div>
