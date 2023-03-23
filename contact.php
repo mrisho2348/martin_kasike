@@ -70,7 +70,7 @@
 				  </ul>
 				</li>
 				<li><a href="">PORTFOLIO</a></li>
-				<li><a href="cont.php">CONTACT US</a></li>
+				<li><a href="cform.php">CONTACT US</a></li>
 				<li><a href="blog.html">BLOG</a></li>
 			  </ul>
 			</div>

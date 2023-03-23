@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["send"])) {
   mysqli_close($conn);
 
   // Redirect to the HTML file
-  header('Location: cont.php?success=' . urlencode($success) . '&error=' . urlencode($error));
+  header('Location: cform.php?success=' . urlencode($success) . '&error=' . urlencode($error));
   exit();
 }
 

@@ -76,7 +76,7 @@ if (isset($_POST['logout'])) {
             </ul>
           </li>
           <li><a href="portfollio.php">PORTFOLIO</a></li>
-          <li><a href="#">CONTACT US</a></li>
+          <li><a href="cform.php">CONTACT US</a></li>
           <li><a href="blog.html">BLOG</a></li>
         </ul>
       </div>
