@@ -41,13 +41,12 @@
           <li><a href="kasike.html">HOME</a></li>
           <li>
             <a href="#">SERVICES</a>
-            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
             <ul class="htmlCss-sub-menu sub-menu">
               <li><a href="view.php">VIEW MY VIDEO</a></li>
               <li><a href="#">VIDEO SHOOTING</a></li>
               <li><a href="#">GRAPHICS DESIGN</a></li>
-              <li><a href="background.php">OUR BACKGROUND</a></li>
-          
+              <li><a href="background.php">OUR BACKGROUND</a></li>          
             </ul>
           </li>
           <li>
@@ -63,6 +62,7 @@
           <li><a href="portfollio.php">PORTFOLIO</a></li>
           <li><a href="cform.php">CONTACT US</a></li>
           <li><a href="blog.html">BLOG</a></li>
+          <li><a href="namee.html">Psychology</a></li>
         </ul>
       </div>
       <div class="search-box">

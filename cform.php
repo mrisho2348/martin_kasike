@@ -28,7 +28,7 @@
               <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
               <ul class="htmlCss-sub-menu sub-menu">
                 <li><a href="view.php">VIEW MY VIDEO</a></li>
-                <li><a href="view.php">VIDEO SHOOTING</a></li>
+                <li><a href="#">VIDEO SHOOTING</a></li>
                 <li><a href="#">GRAPHICS DESIGN</a></li>           
                 
               </ul>
@@ -47,6 +47,7 @@
             <li><a href="portfollio.php">PORTFOLIO</a></li>
             <li><a href="cform.php">CONTACT US</a></li>
             <li><a href="blog.html">BLOG</a></li>
+            <li><a href="namee.html">Psychology</a></li>
           </ul>
         </div>
         <div class="search-box">
@@ -55,11 +56,8 @@
             <input type="text" placeholder="Search...">
           </div>
         </div>
-      </div>
-      
-    </nav>
-   
-  
+      </div>      
+    </nav>    
   </section>
 <section>
 <!-- partial:index.partial.html -->
